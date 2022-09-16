@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
   ~ Copyright (C) 2015 Pedro Vicente Gomez Sanchez.
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
@@ -18,10 +17,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.github.pedrovgs.lynx">
 
-  <application>
-    <activity
-        android:name=".LynxActivity"
-        android:windowSoftInputMode="stateHidden"/>
-  </application>
+    <application>
+        <activity
+            android:name=".LynxActivity"
+            android:exported="false"
+            android:windowSoftInputMode="stateHidden" />
+    </application>
 
 </manifest>

@@ -1,17 +1,17 @@
 language: android
 
 jdk:
-  - oraclejdk8
+  - oraclejdk11
 
 android:
   components:
     - tools
-    - build-tools-25.0.3
-    - android-25
+    - build-tools-33.0.0
+    - android-33
     - platform-tools
     - extra-android-support
     - extra-google-m2repository
     - extra-android-m2repository
 
 script:
-  ./gradlew checkstyle build
+  ./gradlew checkstyle build --s

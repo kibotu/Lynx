@@ -1,1 +1,2 @@
-include ':lynx', ':sample'
+//include ':sample'
+include ':lynx'
